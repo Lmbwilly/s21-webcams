@@ -1,101 +1,121 @@
 {
 	"webcams": [
 		{
+			"id": 0,
 			"name": "Nordkopf 2",
 			"url": "http://wbsu.de/S21-Jaegerstrasse-Nordkopf-2/S21-Jaegerstrasse-Nordkopf-2.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 1,
 			"name": "Nordkopf 1",
 			"url": "http://wbsu.de/S21-Jaegerstrasse-Nordkopf/s21-jaegerstrassse-nordkopf.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 2,
 			"name": "Nordkopf 3",
 			"url": "http://wbsu.de/S21-Bahndirektion-Nord/S21-Bundesbahndirektion-Nord.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 3,
 			"name": "Kurt-Geog-Kiesinger Platz",
 			"url": "http://wbsu.de/S21-Jaegerstrasse/s21-jaegerstrassse-hbf-nordfluegel.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 4,
 			"name": "Kurt-Geog-Kiesinger Platz 2",
 			"url": "http://wbsu.de/S21-Bahndirektion-Sued/S21-Bundesbahndirektion-S%C3%BCd.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 5,
 			"name": "Bauabschnitt 12",
 			"url": "http://wbsu.de/S21-Turm-03/s21-turm03.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 6,
 			"name": "Bauabschnitt 13",
 			"url": "http://wbsu.de/S21-Turm-02/s21-turm-02.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 7,
 			"name": "Mittlerer Schlossgarten",
 			"url": "http://wbsu.de/S21-Turm-01/s21-turm-01.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 8,
 			"name": "Bauabschnitt 16",
 			"url": "http://wbsu.de/S21-Suedkopf-Lichtaugen/S21-Suedkopf-Lichtaugen.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 9,
 			"name": "Hauptsammler Nesenbach",
 			"url": "http://wbsu.de/S21-Suedkopf-Dueker/S21-Suedkopf-Dueker.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 10,
 			"name": "Zwischenangriff Rosenstein",
 			"url": "http://wbsu.de/S21-Ehmannstrasse-1/S21-Ehmannstrasse-1.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 11,
 			"name": "Zwischenangriff Abstellbahnhof",
 			"url": "http://wbsu.de/S21-Ehmannstrasse-2/S21-Ehmannstrasse-2.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 12,
 			"name": "Neckarbrücke 1",
 			"url": "http://wbsu.de/S21-Neckarbruecke/S21-Neckarbruecke.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 13,
 			"name": "Neckarbrücke 2",
 			"url": "http://wbsu.de/S21-Neckarbruecke-2/S21-Neckarbruecke-2.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
+			"id": 14,
 			"name": "Bau des Bahnhofs Merklingen",
 			"url": "http://wbsu.de/NBS-Merklingen/nbs-bahnhof-merklingen.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
+			"id": 15,
 			"name": "Filstalbrücke 1",
 			"url": "http://wbsu.de/NBS-Filstalbruecke-1/NBS-Filstalbruecke-1.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
+			"id": 16,
 			"name": "Filstalbrücke 2",
 			"url": "http://wbsu.de/NBS-Filstalbruecke-2/NBS-Filstalbruecke-2.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
+			"id": 17,
 			"name": "Ulm 1",
 			"url": "http://wbsu.de/NBS-Ulm-Nordkopf-1/NBS-Ulm-Nordkopf-1.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
+			"id": 18,
 			"name": "Ulm 2",
 			"url": "http://wbsu.de/NBS-Ulm-Nordkopf-2/NBS-Ulm-Nordkopf-2.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
+			"id": 19,
 			"name": "Feuerbach SchochAreal",
 			"url": "https://servicex.stuttgart.de/webcam_schoch-areal/current.jpg",
 			"category": "Stadtprojekt"
