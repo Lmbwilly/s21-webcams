@@ -1,14 +1,19 @@
 <template>
   <div class="Webcam">
-    <gallery :images="getImage(webcams)" :index="index" @close="index = null"></gallery>
+    <!-- <gallery :images="getImage(webcams)" :index="index" @close="index = null"></gallery> !-->
     <v-layout justify-space-around row fill-height wrap>
       <v-flex xs12 sm6 md4 v-for="cam in webcams" :key="cam.id">
-        <v-hover>
+        <v-hover data-fancybox="gallery" :href="cam.url" :data-caption="cam.name">
           <v-card slot-scope="{ hover }" class="red ma-3" hover>
             <v-img :src="cam.url" aspect-ratio="1.5">
               <v-expand-transition>
-                <div v-if="hover" class="d-flex transition-ease-in-out red v-card--reveal display-4" style="height: 15%;">
-                  <v-icon class="white--text" @click="index = cam.id" big>zoom_in</v-icon>
+                <div
+                  v-if="hover"
+                  class="d-flex transition-ease-in-out red v-card--reveal display-4"
+                  style="height: 15%;"
+                >
+                  <!-- <v-icon class="white--text" @click="index = cam.id" big>zoom_in</v-icon> !-->
+                  <v-icon class="white--text" big>zoom_in</v-icon>
                 </div>
               </v-expand-transition>
             </v-img>
@@ -16,7 +21,7 @@
             <v-card-title>
               <v-layout align-center justify-space-around row fill-height>
                 <v-flex shrink>
-                  <h1 class="title white--text">{{ cam.name }}</h1>                  
+                  <h1 class="title white--text">{{ cam.name }}</h1>
                 </v-flex>
 
                 <v-flex grow>
@@ -40,26 +45,24 @@
 
 <script>
 import json from "@/data/webcams.json";
-import VueGallery from "vue-gallery";
+//import VueGallery from "vue-gallery";
 
 export default {
   components: {
-    // eslint-disable-next-line
-    gallery: VueGallery
+    // gallery: VueGallery
   },
   data() {
     return {
       webcams: json.webcams,
-      images: [],
-      index: null
+      images: []
+      // index: null
     };
   },
   methods: {
-    getImage(webcams){
+    /* getImage(webcams){
       return this.webcams.map(cam => cam.url);
-    }
+    } */
   }
-
 };
 </script>
 
