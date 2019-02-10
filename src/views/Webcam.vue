@@ -1,8 +1,7 @@
 <template>
   <div class="Webcam">
-    <!-- <gallery :images="getImage(webcams)" :index="index" @close="index = null"></gallery> !-->
     <v-layout justify-space-around row fill-height wrap>
-      <v-flex xs12 sm6 md4 v-for="cam in webcams" :key="cam.id">
+      <v-flex xs12 sm6 md4 v-for="cam in webcams" :key="cam.url">
         <v-hover data-fancybox="gallery" :href="cam.url" :data-caption="cam.name">
           <v-card slot-scope="{ hover }" class="red ma-3" hover>
             <v-img :src="cam.url" aspect-ratio="1.5">
@@ -12,7 +11,6 @@
                   class="d-flex transition-ease-in-out red v-card--reveal display-4"
                   style="height: 15%;"
                 >
-                  <!-- <v-icon class="white--text" @click="index = cam.id" big>zoom_in</v-icon> !-->
                   <v-icon class="white--text" big>zoom_in</v-icon>
                 </div>
               </v-expand-transition>
@@ -45,23 +43,12 @@
 
 <script>
 import json from "@/data/webcams.json";
-//import VueGallery from "vue-gallery";
 
 export default {
-  components: {
-    // gallery: VueGallery
-  },
   data() {
     return {
-      webcams: json.webcams,
-      images: []
-      // index: null
+      webcams: json.webcams
     };
-  },
-  methods: {
-    /* getImage(webcams){
-      return this.webcams.map(cam => cam.url);
-    } */
   }
 };
 </script>
