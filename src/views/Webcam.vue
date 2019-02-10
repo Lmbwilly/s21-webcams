@@ -43,12 +43,18 @@
 
 <script>
 import json from "@/data/webcams.json";
+import { page } from 'vue-analytics'
 
 export default {
   data() {
     return {
       webcams: json.webcams
     };
+  },
+  methods: {
+    track() {
+      page('/')
+    }
   }
 };
 </script>

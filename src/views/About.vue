@@ -39,3 +39,15 @@
     </v-layout>
   </div>
 </template>
+
+<script>
+import { page } from 'vue-analytics'
+
+export default {
+  methods: {
+    track() {
+      page('/about')
+    }
+  }
+};
+</script>
