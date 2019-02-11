@@ -44,6 +44,7 @@
 import { page } from 'vue-analytics'
 
 export default {
+  name: 'About',
   methods: {
     track() {
       page('/about')

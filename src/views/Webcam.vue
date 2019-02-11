@@ -46,6 +46,8 @@ import json from "@/data/webcams.json";
 import { page } from 'vue-analytics'
 
 export default {
+  name: 'Webcams',
+  
   data() {
     return {
       webcams: json.webcams
