@@ -45,6 +45,8 @@
 import json from "@/data/webcams.json";
 
 export default {
+  name: 'Webcams',
+  
   data() {
     return {
       webcams: json.webcams
