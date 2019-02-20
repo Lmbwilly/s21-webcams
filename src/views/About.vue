@@ -42,9 +42,5 @@
 
 <script>
 
-export default {
-  name: 'About',
-  methods: {
-  }
-};
+export default {};
 </script>

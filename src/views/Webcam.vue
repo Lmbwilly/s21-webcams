@@ -44,9 +44,7 @@
 <script>
 import json from "@/data/webcams.json";
 
-export default {
-  name: 'Webcams',
-  
+export default {  
   data() {
     return {
       webcams: json.webcams
