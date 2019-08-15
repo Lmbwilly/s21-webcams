@@ -22,7 +22,7 @@
 		},
 		{
 			"name": "Kurt-Geog-Kiesinger Platz 2",
-			"url": "http://wbsu.de/S21-Bahndirektion-Sued/S21-Bundesbahndirektion-S%C3%BCd.jpg",
+			"url": "http://wbsu.de/S21-Bahndirektion-Sued/S21-Bundesbahndirektion-Sued.jpg",
 			"category": "Stuttgart 21"
 		},
 		{
@@ -73,6 +73,11 @@
 		{
 			"name": "Bau des Bahnhofs Merklingen",
 			"url": "http://wbsu.de/NBS-Merklingen/nbs-bahnhof-merklingen.jpg",
+			"category": "Neubaustrecke"
+		},
+		{
+			"name": "Eingang Tunnel Aichelberg",
+			"url": "http://wbsu.de/NBS-Aichelberg-TBM/NBS-Aichelberg-TBM.jpg",
 			"category": "Neubaustrecke"
 		},
 		{
